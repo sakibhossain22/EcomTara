@@ -4,7 +4,7 @@ const Info = () => {
     return (
         <section className="">
             <div className="px-6 my-8 rounded-xl lg:px-20">
-                <div className="bg-white border-2  rounded-3xl p-8 lg:p-12 shadow-[0_8px_40px_-12px_rgba(0,0,0,0.1)] border-slate-100">
+                <div className="bg-white border-2  rounded-3xl p-8 lg:p-12 border-slate-100">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
 
                         <div className="flex items-center gap-4 lg:justify-center border-r-0 lg:border-r border-slate-100 last:border-0">

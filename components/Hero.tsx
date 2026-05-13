@@ -49,7 +49,7 @@ function Hero() {
                     </div>
                     <div className="flex-1 relative w-full max-w-[600px] lg:max-w-none">
                         <div className="relative flex justify-center lg:justify-end items-center">
-                            <div className="relative z-10 w-[85%] lg:w-[90%] animate-float shadow-2xl rounded-lg overflow-hidden border-4 border-white">
+                            <div className="relative z-10 w-[85%] lg:w-[90%] animate-float shadow-2xl rounded-lg overflow-hidden">
                                 <Image
                                     src="/desktop.png"
                                     alt="Desktop Version"
