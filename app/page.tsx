@@ -2,6 +2,7 @@ import Demos from "@/components/Demos";
 import Hero from "@/components/Hero";
 import Info from "@/components/Info";
 import Features from "@/components/OnePlatform";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Info />
       <Features />
       <Demos />
+      <Pricing />
     </div>
   );
 }
