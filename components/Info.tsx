@@ -2,9 +2,9 @@ import { ShieldCheck, Headphones, Zap, Layout } from 'lucide-react';
 
 const Info = () => {
     return (
-        <section className="pt-32 pb-16 bg-[#FAFAFF]">
-            <div className="max-w-7xl mx-auto px-6 lg:px-12">
-                <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-[0_8px_40px_-12px_rgba(0,0,0,0.1)] border border-slate-50">
+        <section className="">
+            <div className="px-6 my-8 rounded-xl lg:px-20">
+                <div className="bg-white border-2  rounded-3xl p-8 lg:p-12 shadow-[0_8px_40px_-12px_rgba(0,0,0,0.1)] border-slate-100">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
 
                         <div className="flex items-center gap-4 lg:justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
@@ -12,7 +12,7 @@ const Info = () => {
                                 <Layout size={28} />
                             </div>
                             <div>
-                                <h3 className="text-2xl font-black font-lexend text-slate-900">50+</h3>
+                                <h3 className="text-2xl font-black font-lexend text-[#6346FE]">50+</h3>
                                 <p className="text-slate-500 font-hind font-medium">সফল স্টোর</p>
                             </div>
                         </div>
@@ -22,7 +22,7 @@ const Info = () => {
                                 <Zap size={28} />
                             </div>
                             <div>
-                                <h3 className="text-2xl font-black font-lexend text-slate-900">10+</h3>
+                                <h3 className="text-2xl font-black font-lexend text-[#6346FE]">10+</h3>
                                 <p className="text-slate-500 font-hind font-medium">প্রস্তুত ডেমো</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Info = () => {
                                 <ShieldCheck size={28} />
                             </div>
                             <div>
-                                <h3 className="text-2xl font-black font-lexend text-slate-900">100%</h3>
+                                <h3 className="text-2xl font-black font-lexend text-[#6346FE]">100%</h3>
                                 <p className="text-slate-500 font-hind font-medium">সিকিউর সিস্টেম</p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Info = () => {
                                 <Headphones size={28} />
                             </div>
                             <div>
-                                <h3 className="text-2xl font-black font-lexend text-slate-900">24/7</h3>
+                                <h3 className="text-2xl font-black font-lexend text-[#6346FE]">24/7</h3>
                                 <p className="text-slate-500 font-hind font-medium">এক্সপার্ট সাপোর্ট</p>
                             </div>
                         </div>
