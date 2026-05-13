@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-0 left-0 w-full bg-white backdrop-blur-xl z-50 py-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)] transition-all duration-300">
-            <div className="px-6 lg:px-12">
+            <div className="px-6 lg:px-20">
                 <div className="flex justify-between items-center">
 
                     <Link href="/" className="flex items-center gap-3 group">
@@ -90,7 +90,6 @@ const Navbar = () => {
                     </Link>
                 </div>
             </div>
-            <hr />
         </nav>
     );
 };
