@@ -7,8 +7,11 @@ import Image from 'next/image';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-
-    const navLinks = [
+    interface NavLink {
+        name: string;
+        href: string;
+    }
+    const navLinks: NavLink[] = [
         { name: 'হোম', href: '/' },
         { name: 'ডেমো', href: '#demo' },
         { name: 'ফিচারসমূহ', href: '#features' },

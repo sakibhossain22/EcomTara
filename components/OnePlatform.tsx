@@ -1,7 +1,14 @@
-import { ShoppingCart, Package, Users, Truck, ShieldAlert, LayoutTemplate } from 'lucide-react';
+import { ShoppingCart, Package, Users, Truck, ShieldAlert, LayoutTemplate, LucideIcon } from 'lucide-react';
 
 const Features = () => {
-  const features = [
+  interface Feature {
+    title: string;
+    desc: string;
+    icon: LucideIcon;
+    bgColor: string;
+    iconColor: string;
+  }
+  const features: Feature[] = [
     {
       title: "ই-কমার্স ওয়েবসাইট",
       desc: "প্রফেশনাল ও মডার্ন ডিজাইনের ই-কমার্স ওয়েবসাইট",

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Hind_Siliguri, Noto_Sans_Bengali } from "next/font/g
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from 'next-themes'
+import FooterCTA from "@/components/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({
       <body className="min-h-full w-full flex flex-col">
         <Navbar />
         {children}
+        <FooterCTA />
       </body>
     </html>
   );
