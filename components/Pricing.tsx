@@ -118,7 +118,7 @@ const Pricing: React.FC = () => {
                         alt="Server" 
                         width={120}
                         height={120}
-                        quality={50}
+                        quality={75}
                         className="w-full max-w-[120px] h-auto object-contain drop-shadow-md"
                       />
                     </div>

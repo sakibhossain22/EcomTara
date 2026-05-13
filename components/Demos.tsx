@@ -78,7 +78,7 @@ const Demos: React.FC = () => {
                     src={demo.image}
                     alt={demo.title}
                     fill
-                    quality={50}
+                    quality={75}
                     className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
                     sizes="(max-w-768px) 100vw, (max-w-1024px) 50vw, 25vw"
                     priority={index < 2} 

@@ -55,7 +55,7 @@ const Navbar = () => {
                     <div className="hidden lg:flex items-center">
                         <Link
                             href="/demo"
-                            className="px-8 py-3.5 bg-gradient-to-r from-[#6346FE] to-[#8269FF] text-white rounded-xl font-hind font-bold text-[16px] shadow-[0_10px_25px_-5px_rgba(99,70,254,0.4)] hover:shadow-[0_15px_30px_-5px_rgba(99,70,254,0.5)] transition-all hover:-translate-y-0.5 active:scale-95"
+                            className="px-8 py-3.5 bg-gradient-to-r bg-[#6346FE] text-white rounded-xl font-hind font-bold text-[16px] shadow-[0_10px_25px_-5px_rgba(99,70,254,0.4)] hover:shadow-[0_15px_30px_-5px_rgba(99,70,254,0.5)] transition-all hover:-translate-y-0.5 active:scale-95"
                         >
                             ডেমো দেখুন
                         </Link>
