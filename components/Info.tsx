@@ -5,9 +5,9 @@ const Info = () => {
         <section className="">
             <div className="px-6 my-8 rounded-xl lg:px-20">
                 <div className="bg-white border-2  rounded-3xl p-8 lg:p-12 border-slate-100">
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-2  mx-auto lg:grid-cols-4 gap-8">
 
-                        <div className="flex items-center gap-4 lg:justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
+                        <div className="flex items-center gap-4 justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
                             <div className="w-14 h-14 rounded-2xl bg-[#F0EEFF] flex items-center justify-center text-[#6346FE]">
                                 <Layout size={28} />
                             </div>
@@ -17,7 +17,7 @@ const Info = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-4 lg:justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
+                        <div className="flex items-center gap-4 justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
                             <div className="w-14 h-14 rounded-2xl bg-[#F0EEFF] flex items-center justify-center text-[#6346FE]">
                                 <Zap size={28} />
                             </div>
@@ -27,7 +27,7 @@ const Info = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-4 lg:justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
+                        <div className="flex items-center gap-4 justify-center border-r-0 lg:border-r border-slate-100 last:border-0">
                             <div className="w-14 h-14 rounded-2xl bg-[#FFF4EE] flex items-center justify-center text-[#FF8A4C]">
                                 <ShieldCheck size={28} />
                             </div>
@@ -37,7 +37,7 @@ const Info = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-4 lg:justify-center border-r-0 last:border-0">
+                        <div className="flex items-center gap-4 justify-center border-r-0 last:border-0">
                             <div className="w-14 h-14 rounded-2xl bg-[#EEFBF4] flex items-center justify-center text-[#27C479]">
                                 <Headphones size={28} />
                             </div>
