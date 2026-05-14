@@ -73,7 +73,7 @@ const Features = () => {
               className="group p-4 rounded-3xl bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:shadow-[#6346FE]/5 hover:-translate-y-2 transition-all duration-300 text-center flex flex-col items-center"
             >
               <div className={`w-28 h-28 rounded-2xl ${item.bgColor} ${item.iconColor} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                <item.icon  size={32} strokeWidth={3} />
+                <item.icon  size={40} strokeWidth={3} />
               </div>
               
               <h3 className="text-[17px] font-bold font-lexend text-slate-900 mb-3">

@@ -16,7 +16,7 @@ const Navbar = () => {
         { name: 'ডেমো', href: '#demo' },
         { name: 'ফিচারসমূহ', href: '#features' },
         { name: 'মূল্য পরিকল্পনা', href: '#pricing' },
-        { name: 'লাইফটাইম প্ল্যান', href: '#lifetime' },
+        { name: 'লাইফটাইম প্ল্যান', href: '#pricing' },
         { name: 'ব্লগ', href: '#blog' },
         { name: 'যোগাযোগ', href: '#contact' },
     ];
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                     <div className="hidden lg:flex items-center">
                         <Link
-                            href="/demo"
+                            href="#demo"
                             className="px-8 py-3.5 bg-gradient-to-r bg-[#6346FE] text-white rounded-xl font-hind font-bold text-[16px] shadow-[0_10px_25px_-5px_rgba(99,70,254,0.4)] hover:shadow-[0_15px_30px_-5px_rgba(99,70,254,0.5)] transition-all hover:-translate-y-0.5 active:scale-95"
                         >
                             ডেমো দেখুন

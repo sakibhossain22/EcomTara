@@ -23,7 +23,7 @@ function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                            <Link href="/demo" className="w-full sm:w-auto px-8 py-4 bg-[#6346FE] text-white rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-[#6346FE]/30 hover:-translate-y-1 active:scale-95 transition-all">
+                            <Link href="#demo" className="w-full sm:w-auto px-8 py-4 bg-[#6346FE] text-white rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-[#6346FE]/30 hover:-translate-y-1 active:scale-95 transition-all">
                                 ডেমো দেখুন <Zap size={18} fill="white" />
                             </Link>
                             <Link href="#pricing" className="w-full sm:w-auto px-8 py-4 border-2 border-[#6346FE] text-[#6346FE] rounded-xl font-bold hover:bg-[#6346FE]/5 transition-all text-center active:scale-95">
