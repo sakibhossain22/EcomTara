@@ -115,7 +115,7 @@ const Pricing: React.FC = () => {
                   </div>
 
                   {plan.isLifetime && (
-                    <div className="w-24 shrink-0">
+                    <div className="w-2/5 shrink-0">
                       <Image 
                         src="/server.png" 
                         alt="Server" 
